@@ -5,10 +5,10 @@ from reportlab.pdfgen import canvas
 import io
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
-
+import os
 app = Flask(__name__)
-app.secret_key = "secret123"
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///invoice.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///invoice.db')
+app.secret_key = os.getenv("SECRET_KEY", "secret123")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
