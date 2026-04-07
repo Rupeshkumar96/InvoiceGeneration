@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Dashboard</h2>
+
+<div style="display:flex;gap:20px">
+    <div class="card">
+        <h3>Total Customers</h3>
+        <h1>{{ customers }}</h1>
+    </div>
+    <div class="card">
+        <h3>Total Invoices</h3>
+        <h1>{{ invoices }}</h1>
+    </div>
+</div>
+{% endblock %}

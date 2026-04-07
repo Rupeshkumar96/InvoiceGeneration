@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+    <style>
+        body { font-family: Arial; padding: 40px; }
+        h2 { text-align: center; }
+        .box { margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+<h2>INVOICE</h2>
+
+<div class="box">
+    <p><b>Invoice No:</b> {{ invoice.id }}</p>
+    <p><b>Date:</b> {{ invoice.date }}</p>
+    <p><b>Customer:</b> {{ invoice.customer }}</p>
+    <p><b>Amount:</b> ₹{{ invoice.amount }}</p>
+    <p><b>Status:</b> {{ invoice.status }}</p>
+</div>
+
+</body>
+</html>
