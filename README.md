@@ -1,23 +1,55 @@
-Invoice Management System
-A professional, full-stack Invoice Management System built with Python and Flask. This application allows users to register, manage customer databases, generate invoices, and export them as high-quality PDF documents.
+# 🧾 Invoice Management System
 
-🚀 Technologies Used
-The following core technologies power this application:
+A professional, full-stack Invoice Management System built with **Python** and **Flask**. This application allows users to register, manage customer databases, generate invoices, and export them as high-quality PDF documents.
 
-✨ Features
+---
 
-Secure Authentication: User registration and login system using Flask-Login and Werkzeug for password hashing.
+## 🛠️ Tech Stack
 
-Customer Management: Dedicated module to add and store customer details including names, emails, and phone numbers.
+<table border="0">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
+      <br />Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" width="48" height="48" alt="Flask" />
+      <br />Flask
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="48" height="48" alt="SQLite" />
+      <br />SQLite
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" />
+      <br />HTML5
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" />
+      <br />CSS3
+    </td>
+  </tr>
+</table>
 
-Invoice Lifecycle: Create invoices for existing customers, track their status (Pending/Paid), and manage them from a central dashboard.
+---
 
+## ✨ Features
 
-PDF Generation: Generate professional, downloadable PDF invoices on demand using the ReportLab library.
+* [cite_start]**Secure Authentication:** User registration and login system using `Flask-Login` and `Werkzeug` for password hashing.
+* [cite_start]**Customer Management:** Dedicated module to add and store customer details including names, emails, and phone numbers.
+* [cite_start]**Invoice Lifecycle:** Create invoices for existing customers, track their status (Pending/Paid), and manage them from a central dashboard.
+* [cite_start]**PDF Generation:** Generate professional, downloadable PDF invoices on demand using the `ReportLab` library.
+* [cite_start]**User-Specific Data:** Multi-tenant architecture where users only see their own customers and invoices.
+* [cite_start]**Responsive UI:** Clean, modern interface styled with custom CSS for ease of use.
 
-User-Specific Data: Multi-tenant architecture where users only see their own customers and invoices.
+---
 
-Responsive UI: Clean, modern interface styled with custom CSS for ease of use.
+## 🛠️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/yourusername/invoice-management-system.git](https://github.com/yourusername/invoice-management-system.git)
+cd invoice-management-system
 
 🛠️ Installation & Setup
 1. Clone the repository
