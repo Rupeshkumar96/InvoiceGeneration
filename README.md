@@ -71,34 +71,33 @@ Run :- python app.py
 
 Visit http://127.0.0.1:5000 in your browser.
 
-
-📁INVOICE-GENERATION/
+INVOICE-GENERATION/                 
+│                
+├── .gitignore                    
+├── README.md                         
+├── requirements.txt               
+├── app.py                               
+├── start.sh                          
+│                  
+├── static/                                       
+│   ├── css/                  
+│   │   └── style.css                                          
+│   ├── js/                                            
+│   └── img/                                                    
+│                      
+├── templates/                                        
+│   ├── base.html                    
+│   ├── login.html                     
+│   ├── register.html                         
+│   ├── dashboard.html                       
+│   ├── invoices.html                        
+│   ├── create_invoice.html                       
+│   ├── add_customer.html                            
+│   └── invoice_pdf.html                         
 │
-├── .gitignore              # Files to ignore (like __pycache__, .env, venv/)
-├── README.md               # Project description, setup guide, and screenshots
-├── requirements.txt        # Python dependencies (Flask, SQLAlchemy, etc.)
-├── app.py                  # Main application entry point
-├── start.sh                # Shell script to run the app
-│
-├── static/                 # CSS, JS, and image assets
-│   ├── css/
-│   │   └── style.css
-│   ├── js/                 # (Optional) For any frontend logic
-│   └── img/                # Logos or background images
-│
-├── templates/              # HTML files for Flask/Jinja2
-│   ├── base.html
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│   ├── invoices.html
-│   ├── create_invoice.html
-│   ├── add_customer.html
-│   └── invoice_pdf.html
-│
-└── instance/               # (Auto-generated) For your SQLite database
-    └── database.db
-
+└── instance/                                      
+    └── database.db                          
+    
 📝 Database Schema
 The application uses three primary models:
 
@@ -110,5 +109,3 @@ Invoice: Records transaction details, amounts, and statuses.
 
 📄 License
 This project is open-source and available under the MIT License.
-<img width="1853" height="713" alt="{41727AEF-3053-4205-8372-F97E029918F5}" src="https://github.com/user-attachments/assets/8fc15b4f-c8d7-4bff-b49a-3092b935f207" />
-<img width="1864" height="656" alt="{2C2B04BD-6FD5-4D21-84D0-123B925D6C62}" src="https://github.com/user-attachments/assets/3b19b265-d886-42ef-817b-9afbca49d348" />
