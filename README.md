@@ -44,31 +44,33 @@ A professional, full-stack Invoice Management System built with **Python** and *
 
 ---
 
-## 🛠️ Installation & Setup
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/yourusername/invoice-management-system.git](https://github.com/yourusername/invoice-management-system.git)
-cd invoice-management-system
-
-🛠️ Installation & Setup
+## Installation & Setup
 1. Clone the repository
 Bash
 git clone https://github.com/yourusername/invoice-management-system.git
+
 cd invoice-management-system
+
 2. Set up a Virtual Environment
 Bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate 
+
+On Windows: venv\Scripts\activate
+
 3. Install Dependencies
-Bash
+
 pip install -r requirements.txt
+
 4. Initialize Database & Run
+
 The database will automatically initialize on the first run.
 
-Bash
-python app.py
+Run :- python app.py
+
 Visit http://127.0.0.1:5000 in your browser.
+
 
 📁INVOICE-GENERATION/
 │
