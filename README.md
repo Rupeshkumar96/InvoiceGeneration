@@ -70,17 +70,32 @@ Bash
 python app.py
 Visit http://127.0.0.1:5000 in your browser.
 
-📁 Project Structure
-app.py: The main application entry point containing routes, models, and business logic.
-
-templates/: Jinja2 HTML templates for the frontend.
-
-static/: CSS and styling assets.
-
-
-requirements.txt: List of Python packages required for the project.
-
-start.sh: A shell script to launch the application using the Gunicorn production server.
+📁INVOICE-GENERATION/
+│
+├── .gitignore              # Files to ignore (like __pycache__, .env, venv/)
+├── README.md               # Project description, setup guide, and screenshots
+├── requirements.txt        # Python dependencies (Flask, SQLAlchemy, etc.)
+├── app.py                  # Main application entry point
+├── start.sh                # Shell script to run the app
+│
+├── static/                 # CSS, JS, and image assets
+│   ├── css/
+│   │   └── style.css
+│   ├── js/                 # (Optional) For any frontend logic
+│   └── img/                # Logos or background images
+│
+├── templates/              # HTML files for Flask/Jinja2
+│   ├── base.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── invoices.html
+│   ├── create_invoice.html
+│   ├── add_customer.html
+│   └── invoice_pdf.html
+│
+└── instance/               # (Auto-generated) For your SQLite database
+    └── database.db
 
 📝 Database Schema
 The application uses three primary models:
