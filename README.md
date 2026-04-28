@@ -35,12 +35,12 @@ A professional, full-stack Invoice Management System built with **Python** and *
 
 ## ✨ Features
 
-* [cite_start]**Secure Authentication:** User registration and login system using `Flask-Login` and `Werkzeug` for password hashing.
-* [cite_start]**Customer Management:** Dedicated module to add and store customer details including names, emails, and phone numbers.
-* [cite_start]**Invoice Lifecycle:** Create invoices for existing customers, track their status (Pending/Paid), and manage them from a central dashboard.
-* [cite_start]**PDF Generation:** Generate professional, downloadable PDF invoices on demand using the `ReportLab` library.
-* [cite_start]**User-Specific Data:** Multi-tenant architecture where users only see their own customers and invoices.
-* [cite_start]**Responsive UI:** Clean, modern interface styled with custom CSS for ease of use.
+* Secure Authentication:** User registration and login system using `Flask-Login` and `Werkzeug` for password hashing.
+* Customer Management:** Dedicated module to add and store customer details including names, emails, and phone numbers.
+* Invoice Lifecycle:** Create invoices for existing customers, track their status (Pending/Paid), and manage them from a central dashboard.
+* PDF Generation:** Generate professional, downloadable PDF invoices on demand using the `ReportLab` library.
+* User-Specific Data:** Multi-tenant architecture where users only see their own customers and invoices.
+* Responsive UI:** Clean, modern interface styled with custom CSS for ease of use.
 
 ---
 
